@@ -233,7 +233,7 @@ static void rev_sku_to_speedo_ids(int rev, int sku)
 		case 0x83: /* T30L or T30S */
 			switch (package_id) {
 			case 1: /* MID => T30L */
-				cpu_speedo_id = 7;
+				cpu_speedo_id = 4;
 				soc_speedo_id = 1;
 				threshold_index = 10;
 				break;
