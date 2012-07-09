@@ -41,7 +41,8 @@
 #define FREQ_SLEEP_MAX 						(320000)
 #define FREQ_AWAKE_MIN 						(480000)
 #define FREQ_STEP_UP_SLEEP_PERCENT 			(20)
-
+#define CONFIG_CPU_FREQ_MIN_TICKS			(10)
+#define CONFIG_CPU_FREQ_SAMPLING_LATENCY_MULTIPLIER	(1000)
 /*
  * The polling frequency of this governor depends on the capability of
  * the processor. Default polling frequency is 1000 times the transition
